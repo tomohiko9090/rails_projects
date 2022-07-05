@@ -52,9 +52,6 @@ MVCモデルの概念図
 $ lsof -wni tcp:3000
 $ kill -9 （PID）
 
-questions のコントローラーを作る
-rails g controller questions
-
 class QuestionsController < ApplicationController
   # 1. 質問一覧表示
   def index 
@@ -81,3 +78,17 @@ class QuestionsController < ApplicationController
   end
 
 end
+
+プロジェクトの作成
+rails new qanda _7.0.0_
+
+
+questions のコントローラーを作る
+rails g controller questions
+
+MVP（Minimum Viable Product）
+実用最小限の製品
+＜今回作るもの＞
+- 質問を「投稿」「編集」「削除」「回答」「一覧確認」できる
+- 回答を「編集」「削除」「回答」「一覧表示」できる
+
