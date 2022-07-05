@@ -47,3 +47,6 @@ irb(main):048:0> yamada.save
 development.rb
 config.hosts.clear #ホストのホワイトリストを無効にする
 
+MVCモデルの概念図
+<img width="1230" alt="スクリーンショット 0004-07-05 午前11 55 12" src="https://user-images.githubusercontent.com/66200485/177240347-8fc35dc2-74b4-4bc9-9c20-827cd579a313.png">
+
