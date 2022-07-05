@@ -52,4 +52,32 @@ MVCモデルの概念図
 $ lsof -wni tcp:3000
 $ kill -9 （PID）
 
+questions のコントローラーを作る
+rails g controller questions
 
+class QuestionsController < ApplicationController
+  # 1. 質問一覧表示
+  def index 
+  end
+
+  # 2. 質問詳細ページ表示
+  def show
+  end
+
+  # 3. 質問の作成
+  def new
+  end
+
+  # 4. 質問の登録
+  def create
+  end
+
+  # 5. 質問の編集
+  def edit
+  end
+
+  # 6. 質問の削除
+  def destroy
+  end
+
+end
