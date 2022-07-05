@@ -40,5 +40,10 @@ yamada = User.find(2)
 irb(main):048:0> yamada.name = "taro tanaka"
 irb(main):048:0> yamada.age = 21
 irb(main):048:0> yamada.save
+
+
 '''
+
+development.rb
+config.hosts.clear #ホストのホワイトリストを無効にする
 
