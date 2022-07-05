@@ -109,3 +109,6 @@ resources :questions でルーティングを自動生成してくれる
 
 
 <img width="338" alt="スクリーンショット 0004-07-05 午後3 28 46" src="https://user-images.githubusercontent.com/66200485/177263604-d27597d4-2399-48f2-ac5c-2c02af852925.png">
+
+アクティブレコード
+SQLを書かなくても生成してくれる
