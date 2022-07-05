@@ -87,6 +87,7 @@ rails g controller questions
 rails g model Question name:string title:string content:text
 rails db:migrate #dbに反映する
 rails dbconsole
+rails routes 自動作成してくれる
 
 sqlite> .schema questions #DBの確認
 
