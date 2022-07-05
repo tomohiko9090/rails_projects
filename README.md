@@ -82,13 +82,25 @@ end
 プロジェクトの作成
 rails new qanda _7.0.0_
 
-
-questions のコントローラーを作る
+questions のコントローラー、モデルaを作る
 rails g controller questions
+rails g model Question name:string title:string content:text
+rails db:migrate #dbに反映する
+rails dbconsole
+
+sqlite> .schema questions #DBの確認
 
 MVP（Minimum Viable Product）
 実用最小限の製品
 ＜今回作るもの＞
 - 質問を「投稿」「編集」「削除」「回答」「一覧確認」できる
 - 回答を「編集」「削除」「回答」「一覧表示」できる
+<img width="338" alt="スクリーンショット 0004-07-05 午後3 28 46" src="https://user-images.githubusercontent.com/66200485/177263604-d27597d4-2399-48f2-ac5c-2c02af852925.png">
+
+ルーティングの設定
+URlとアクションを結びつける作業
+routes.rbにて
+resources :questions でルーティングを自動生成してくれる
+<img width="1051" alt="スクリーンショット 0004-07-05 午後3 41 11" src="https://user-images.githubusercontent.com/66200485/177265555-e1efc28f-8b31-4a76-8849-5706820f7e95.png">
+
 
